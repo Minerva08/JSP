@@ -1,0 +1,65 @@
+@charset "utf-8";
+a {
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+nav > ul {
+	display: flex;
+	padding: 0;
+	list-style: none;
+}
+nav > ul > li {
+	width: 100px;
+	height: 30px;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.bookList div {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.item,
+.columns {
+	display: flex
+}
+.item > div,
+.columns > div {
+	padding: 5px 10px;
+}
+.idx, .name, .author, .publishDate, .publisher, .price, .comment {
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+.idx {
+	width: 100px;
+}
+.name {
+	width: 500px;
+}
+.author, .publishDate, .publisher, .price {
+	width: 220px;
+}
+.comment {
+	width: 100%;
+}
+table {
+	border-collapse: collapse;	/* 칸과 칸 사이의 간격을 없앤다 */
+	border: 2px solid black;
+}
+td, th {
+	padding: 7px;
+	border: 1px solid black;
+}
+textarea {
+	resize: none;
+}

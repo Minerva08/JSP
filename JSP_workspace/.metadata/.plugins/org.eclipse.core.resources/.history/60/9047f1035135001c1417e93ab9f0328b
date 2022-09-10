@@ -1,0 +1,38 @@
+package day05;
+
+public class PhonebookDTO {
+	private String name;
+	private String pnum;
+	
+	public PhonebookDTO() {
+		// TODO Auto-generated constructor stub
+	}
+	PhonebookDTO(String name, String pnum){
+		this.name=name;
+		this.pnum=pnum;
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getPnum() {
+		return pnum;
+	}
+
+	public void setPnum(String pnum) {
+		this.pnum = pnum;
+	}
+	
+	
+}

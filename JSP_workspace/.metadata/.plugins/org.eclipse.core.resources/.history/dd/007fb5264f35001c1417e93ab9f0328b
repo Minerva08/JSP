@@ -1,0 +1,21 @@
+package snippet;
+
+public class Snippet {
+	<%
+		 	// 다수의 파라미터를 한번에 처리하고 싶다면
+		 	Enumeration<String> names = request.getParameterNames();// 파라미터의 이름만 묶어서 불러와서
+		 	while(names.hasMoreElements()) {
+		 		String key = names.nextElement();
+		 		String value = request.getParameter(key);
+		 		out.print(key + " : " + value + "<br>\n");
+		 		
+		 		switch(key) {	// 문자열을 .equals() 로 비교하기 싫으면 switch 도 사용 가능
+		 		case "age":
+		 			String adult2 = Integer.parseInt(value) >= 20 ? "성인" : "미성년자";
+		 			out.print("adult : " + adult2);
+		 			break;
+		 		}
+		 	}
+		 %>
+}
+

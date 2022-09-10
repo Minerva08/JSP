@@ -1,0 +1,7 @@
+<classpath>
+  <container id="mini_project_cinema!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="D:/취업반_JSP/JSP_workspace/mini_project_cinema/WebContent/WEB-INF/lib/kobis-opcl-rest-v1.0.jar">
+      <source-attachment-path>D:/취업반_JSP/JSP_workspace/mini_project_cinema/WebContent/WEB-INF/lib/kobis-opcl-rest-v1.0.jar</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

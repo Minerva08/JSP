@@ -1,0 +1,410 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+header {
+}
+header > .top_banner {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 80px;
+	background-color: black;
+}
+header > .top_banner > img {
+	margin: auto;
+}
+header > .main_section {
+	height: 1264px;
+	width: 100%;
+	background-color: #444;
+	z-index: -2;
+	position: absolute;
+}
+header > .header_section {
+	height: 100%;
+	background-color: white;
+}
+header > .header_section >.header_component {
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	width: 980px;
+	height: 71px;	
+}
+header > .header_section > .header_component ul {
+	list-style: none;
+	display: flex;
+	padding: 0;
+}
+header > .header_section >  .header_component ul li{
+	font-size: 12px;
+	margin-top: 20px;
+	color: #656565;
+}
+header > .header_section > .header_component > .sns > ul > li {
+	justify-content:flex-start;
+	margin-right: 12px;
+}
+
+header > .header_section > .header_component > .logo {
+	display: flex;	
+	color: red;
+	margin-right: 170px;
+}
+
+header > .header_section > .component > .member > ul > li {
+	margin-left: 7px;
+}
+header > .header_section > nav {
+	display: flex;
+	margin: auto;
+	width: 980px;
+	height: 45px;	
+	justify-content: flex-end;
+	position: sticky;
+	top: 0;
+}
+header > .header_section > nav > div {
+	display: flex;
+}
+header > .header_section > nav ul{
+	display: flex;
+	list-style: none;
+	padding: 0;
+}
+header > .header_section > nav > .main_nav {
+	margin-right: 95px;
+	font-size: 14px;
+}
+header > .header_section > nav > .main_nav > .main_nav_list > li {
+	padding: 0px 24px;
+	font-size: 14px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -10px;
+}
+header > .header_section > nav > .main_nav > .main_nav_list > li > a{
+	position: relative;
+}
+header > .header_section > nav > .main_nav > .main_nav_list > li > .drop {
+	position: absolute;
+	z-index: -1;
+	display: none;
+	left: 0;
+	right: 0;
+	justify-content: center;
+	margin-top: 80px;
+	height: 38px;
+	background-color: #f8f8f8;
+}
+header > .header_section > nav > .main_nav > .main_nav_list > li:hover > .drop {
+	display: flex;
+}
+header > .header_section > nav > .main_nav > .main_nav_list > li > .drop > ul > li{
+	display: flex;
+	align-items: center;
+	margin: 0px 10px;
+	font-size: 13px;
+}
+header > .header_section > nav > .main_nav > .main_nav_list > li:hover {
+	border-bottom: 2px solid red;
+}
+header > .header_section > nav > .join_nav > ul > li {
+	margin-left: 18px;
+	font-size: 11px;
+}
+
+html {
+	position: relative;
+}
+footer {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	margin-top: 80px;
+}
+
+footer > .footer_component {
+	height: 350px;
+	background: white;
+	
+}
+
+ul {
+	list-style: none;
+}
+
+
+
+
+
+/*
+	===============================================
+*/
+
+
+
+	main ul {
+		list-style: none;
+	}
+	main {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+	}
+	main > .main_component {
+      display: flex;
+      margin-top: 100px;
+      width: 1276px;
+      height: 870px;
+      background-color: white;
+      position: relative;
+   }
+	
+	main > .main_component > .left_nav {
+		width: 78px;
+	}
+	main > .main_component > .left_nav > ul {
+		padding: 0;
+		margin: 0;
+	}
+	main > .main_component > .left_nav > ul > li {
+		height: 290px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-flow: column;
+		border: 1px solid black;
+		width: 78px;
+		color: #666;
+		font-size: 13px;
+		box-sizing: border-box;
+	}
+	main > .main_component > .left_nav > ul > li:first-child {
+		background-color: #FF243E;
+		color: white;
+	}
+	main > .main_component > .movie_place {
+		width: 351px;
+	}
+	main > .main_component > .movie_place > .movie_place_tab {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		height: 55px;
+		background-color: black;
+	}
+	main > .main_component > .movie_place > .place_choose {
+		width: 350px;
+	 	height: 61px;
+	 	display: flex;
+	 	align-items: center;
+		justify-content: center;
+		border: 1px solid #dadada;
+		border-bottom: 2px solid black;
+	}
+	main > .main_component > .movie_place > .movie_selector {
+		display: flex;
+	}
+	main > .main_component > .movie_place > .movie_selector > div {
+		width: 50%;
+		height: 753px;
+	}
+	main > .main_component > .movie_place > .movie_selector > div:nth-child(1){
+		background-color: rgb(245,245,245);
+	}
+	main > .main_component > .movie_place > .movie_selector > div > ul {
+		margin: 0;
+		padding: 0;
+	}
+	main > .main_component > .movie_choose > .selector_option {
+		height: 61px;
+		display: flex;
+		align-items: center;
+		border: 1px solid #dadada;
+		background-color: rgb(245,245,245);
+	}
+	main > .main_component > .movie_choose > .selector_option > select {
+		border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+		margin-left: 20px;
+		width: 180px;
+		height: 30px;
+	}
+	main > .main_component > .movie_choose > div:nth-child(3) {
+		height: 753px;
+		background-color: rgb(245,245,245);
+		border: 1px solid #dadada;
+	}
+	main > .main_component > .movie_choose > div:nth-child(3) > ul {
+		margin: 0;
+	}
+	main > .main_component > .movie_choose > .movie_choose_tab {
+		display: flex;
+		align-items: center;
+		color: white;
+		height: 55px;
+		background-color: black;
+		width: 350px;
+		justify-content: center;
+	}
+	main > .main_component > .movie_choose > .movie_list > ul {
+		padding-left: 20px;
+	}
+	main > .main_component > .movie_choose > .movie_list > ul > li {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	main > .main_component > .movie_choose > .movie_list > ul > li > button {
+		border: none;
+		width: 300px;
+		background-color: rgb(245,245,245);
+		padding: 12px 20px;
+		padding-left: 10px;
+		text-align: left;
+		font-size: 15px;
+		font-weight: bold;
+		cursor: pointer;
+		text-overflow: ellipsis;	
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	main > .main_component > .movie_choose > .movie_list > ul > li {
+		display: flex;
+	}
+	main > .main_component > .movie_choose > .movie_list > ul > li > div {
+		display: flex;
+		align-items: center;
+		margin-right: 10px;
+	}
+	/* main > .main_component > .movie_choose > .movie_list > ul > li > div{
+		display: flex;
+		align-items: center;
+	}
+	main > .main_component > .movie_choose > .movie_list > ul > li > div > div{
+		display: flex;
+		width: 22px;
+		height: 22px;
+		background-color: orange;
+		color: white;
+		border-radius: 50%;
+		justify-content: center;
+		font-size: 15px;
+	} */
+	
+	main > .main_component > .date > .date_tab {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		height: 55px;
+		background-color: black;
+		width: 500px;
+	}
+
+	li,div {
+		box-sizing: border-box;
+	}
+	
+	#list1 > ul > li > button {
+		border: none;
+		width: 100%;
+		background-color: white;
+		text-align: left;
+		padding: 7px 16px;
+		cursor: pointer;
+		font-size: 13px;
+		margin: 2px;
+		font-weight: bold;
+	}
+	#list2 > ul > li > button {
+		border: none;
+		width: 100%;
+		background-color: white;
+		text-align: left;
+		padding: 7px 16px;
+		cursor: pointer;
+		font-size: 13px;
+		margin: 2px;
+		font-weight: bold;
+	}
+	#list1 > ul > li {
+		display: flex;
+	}
+	#list2 > ul > li {
+		display: flex;
+	}
+	#list1 > ul > li > div{
+		display: flex;
+		align-items: center;
+		margin-right: 10px;
+	}
+	#list2 > ul > li > div{
+		display: flex;
+		align-items: center;
+		margin-right: 10px;
+	}
+	#busan > ul > li {
+		display: flex;
+	}
+	#busan > ul > li > div {
+		display: flex;
+		align-items: center;
+		margin-right: 10px; 
+	}
+	#busan > ul > li > button {
+		width: 90%;
+		background-color: rgb(245,245,245);
+		border: none;
+		text-align: left;
+		padding: 7px 16px;
+		cursor: pointer;
+		font-size: 13px;
+		margin: 2px;
+		font-weight: bold;
+	}
+/*
+ ===========================================
+*/
+	.footer_banner {
+		margin: auto;
+		margin-top: 400px;
+	}
+
+/*
+=========================================
+*/
+
+.join_div1 {
+		width: 980px;
+		padding-top: 130px;
+		margin: auto;
+	}
+	.join_div1 > div {
+		text-align: center;
+		border-bottom: 2px solid black;
+		padding-top: 35px;
+		padding-bottom: 10px;
+		font-weight: bold;
+	}
+	.join_div2 {
+		height: 360px;
+		width: 100%;
+		background-color: rgb(245, 245, 245);
+		margin-top: 30px;
+	}
+	.join_div2 > div > form {
+		margin: auto;	
+		text-align: center;
+		padding-top: 90px;
+	}
+

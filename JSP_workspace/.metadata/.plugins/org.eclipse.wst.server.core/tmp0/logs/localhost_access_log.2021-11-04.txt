@@ -1,0 +1,11 @@
+127.0.0.1 - - [04/Nov/2021:22:36:14 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [04/Nov/2021:22:36:18 +0900] "GET /day13_board/board/list.jsp HTTP/1.1" 200 2908
+0:0:0:0:0:0:0:1 - - [04/Nov/2021:22:36:18 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [04/Nov/2021:22:38:34 +0900] "GET /day13_board/board/list.jsp HTTP/1.1" 200 3740
+0:0:0:0:0:0:0:1 - - [04/Nov/2021:22:38:34 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [04/Nov/2021:22:41:53 +0900] "GET /day13_board/board/list.jsp HTTP/1.1" 200 3740
+0:0:0:0:0:0:0:1 - - [04/Nov/2021:22:42:20 +0900] "GET /day13_board/board/view.jsp?idx=3 HTTP/1.1" 200 2294
+0:0:0:0:0:0:0:1 - - [04/Nov/2021:22:42:27 +0900] "GET /day13_board/board/input.jsp HTTP/1.1" 200 2654
+0:0:0:0:0:0:0:1 - - [04/Nov/2021:22:47:11 +0900] "GET /day13_board/board/list.jsp HTTP/1.1" 200 3740
+0:0:0:0:0:0:0:1 - - [04/Nov/2021:22:47:14 +0900] "GET /day13_board/board/input.jsp HTTP/1.1" 200 2715
+0:0:0:0:0:0:0:1 - - [04/Nov/2021:22:47:45 +0900] "POST /day13_board/board/input.jsp HTTP/1.1" 500 3292

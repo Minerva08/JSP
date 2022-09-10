@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.5 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.5 Server at localhost" name="Tomcat v8.5 Server at localhost" runtime-id="Apache Tomcat v8.5" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="73">
+    <list key="modules" value0="day12::org.eclipse.jst.jee.server:day12::jst.web::3.1" value1="day19::org.eclipse.jst.jee.server:day19::jst.web::3.1" value2="LOTTECINEMA_CLONE_PROJECT::org.eclipse.jst.jee.server:LOTTECINEMA_CLONE_PROJECT::jst.web::3.1" value3="day03_naver::org.eclipse.jst.jee.server:day03_naver::jst.web::3.1"/>
+  </server>
+</servers>

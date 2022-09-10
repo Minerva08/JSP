@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;branch.Branch&apos; to &apos;BranchDTO&apos;&#x0D;&#x0A;- Original project: &apos;mini_project_cinema&apos;&#x0D;&#x0A;- Original element: &apos;branch.Branch&apos;&#x0D;&#x0A;- Renamed element: &apos;branch.BranchDTO&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Branch&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;branch{Branch.java[Branch" matchStrategy="1" name="BranchDTO" qualified="false" references="true" similarDeclarations="false" stamp="1637421916370" textual="false" version="1.0"/>
+</session>
